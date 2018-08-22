@@ -13,7 +13,6 @@ def blend(a, b, alpha):
     Returns:
         numpy.array: Blended Image.
     """
-    # TODO: Your code here
     return alpha * (a + b)
 
 def weightlessBlend(a, b, alpha):
@@ -26,7 +25,6 @@ def weightlessBlend(a, b, alpha):
     Returns:
         numpy.array: Blended Image.
     """
-    # TODO: Your code here
     return a + b
 
 def directBlend(a, b, alpha):
@@ -39,7 +37,6 @@ def directBlend(a, b, alpha):
     Returns:
         numpy.array: Blended Image.
     """
-    # TODO: Your code here
     return  (alpha * a) + (alpha * b)
 
 dolphin = cv2.imread("images/dolphin.png")
